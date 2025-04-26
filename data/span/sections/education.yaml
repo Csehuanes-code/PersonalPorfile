@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Educación
+  id: education
+  template: sections/education.html # Usa "sections/education-alt.html" para una plantilla alternativa
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # hideTitle: true
+
+degrees:
+- name: Ingeniería de Sistemas
+  icon: fa-graduation-cap
+  timeframe: 2023 - Actualidad
+  institution:
+    name: Universidad del Magdalena
+    url: "https://www.unimagdalena.edu.co/"
+    logo: /images/sections/education/unimag.JPEG
+    # darkLogo: /images/sections/education/university.jpg
+  customSection:
+  name: Actualmente estoy invirtiendo en mi formación profesional. Me encuentro en quinto semestre del programa de Ingeniería de Sistemas.
+
+- name: Título de Educación Media Técnica
+  icon: fa-university
+  timeframe: 2017 - 2022
+  institution: 
+    name: Institución Educativa Técnica Departamental Pijiño del Carmen
+    url: "https://www.facebook.com/iepijino.delcarmen.7/"
+    logo: /images/sections/education/higherSchool.png
+    # darkLogo: /images/sections/education/science_college.png
+  grade:
+    scale: Escala de calificación decimal
+    achieved: 8.5
+    outOf: 10
+  extracurricularActivities:
+  - Horas sociales.
+  - Curso de conducción.
+  - Miembro del equipo de voleibol.
+
+- name: Título de Educación Básica Secundaria
+  icon: fa-school
+  timeframe: 2011 - 2016
+  institution:
+    name: Institución Educativa María de Carmen
+  grade:
+    scale: Escala de calificación decimal
+    achieved: 10
+    outOf: 10

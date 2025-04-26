@@ -1,0 +1,62 @@
+# section information
+section:
+  name: Experiencias
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Tus experiencias
+experiences:
+- company:
+    name: Venta de dulces en la escuela
+    location: Escuela
+    logo: /images/sections/experiences/candy.png
+    # darkLogo: /images/sections/experiences/company1.jpg
+    overview: Desde muy pequeño desarrollé un espíritu emprendedor. Durante mis años de primaria detecté una necesidad entre mis compañeros; El gusto por los dulces en los recreos. Aprovechando esta demanda, comencé a vender dulces en la escuela. La idea, organización y logística fueron completamente iniciativa mía, aunque el manejo del dinero estuvo a cargo de mis padres debido a mi edad. Esta experiencia me enseñó desde temprano el valor del dinero, la importancia de la gestión de inventarios y la interacción directa con clientes, incluso en un entorno informal como la escuela.
+  positions:
+  - designation: Vendedor independiente (informal)
+    start: Marzo 2014
+    end: Enero 2015
+    responsibilities:
+    - Emprendimiento.
+    - Observación del entorno y toma de decisiones.
+    - Comunicación básica con los clientes.
+    - Gestión de ingresos y costos iniciales (con supervisión).
+
+- company:
+    name: Emprendimiento de productos refrigerados artesanales
+    location: Hogar
+    logo: /images/sections/experiences/HandMade.jpg
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Motivado por la buena recepción de mis primeras ventas, decidí iniciar mi propio negocio desde casa, vendiendo productos refrigerados artesanales. Esta vez estuve a cargo de todo el proceso, desde la elaboración hasta la venta y la gestión del dinero. Fue mi primera experiencia como emprendedor autónomo. La actividad incluía producción casera de los productos, control de inventario, atención al cliente y gestión financiera completa.
+  positions:
+  - designation: Emprendedor independiente y administrador
+    start: Junio 2015
+    end: Julio 2017
+    responsibilities:
+    - Autonomía y responsabilidad total del negocio.
+    - Producción artesanal y control de calidad.
+    - Gestión de inventarios.
+    - Atención directa al cliente.
+    - Gestión básica de ingresos y egresos.
+
+- company:
+    name: Asistente general en droguería (negocio familiar)
+    url: https://www.instagram.com/drogueriapijino/?igsh=MWkyOXFwZXBseDg2eA%3D%3D#
+    location: Negocio familiar
+    logo: /images/sections/experiences/Drogueria.jpg
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Desde los 12 años empecé a involucrarme activamente en el negocio familiar, que consiste en varias sedes de droguería. Mis funciones han evolucionado con el tiempo. Inicié atendiendo al público, organizando productos, aprendiendo sobre inventarios y colaborando con tareas básicas. Con los años he ganado más responsabilidad, confianza y conocimientos, llegando incluso a participar en decisiones menores del negocio. Esta experiencia ha sido clave para desarrollar habilidades de atención al cliente, ventas y gestión operativa.
+  positions:
+  - designation: Asistente general / atención al cliente / apoyo en ventas
+    start: Junio 2018
+    responsibilities:
+    - Atención al cliente profesional.
+    - Organización y gestión de productos.
+    - Conocimiento básico en farmacéutica (no clínico).
+    - Resolución de conflictos.
+    - Trabajo en equipo en un entorno familiar/comercial.
+    - Adaptación y responsabilidad laboral desde joven.

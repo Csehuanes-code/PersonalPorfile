@@ -1,0 +1,61 @@
+# section information
+section:
+  name: Habilidades
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Todas
+  filter: "all"
+- name: Básicas
+  filter: "basic"
+- name: Lenguajes
+  filter: "language"
+- name: Datos
+  filter: "data"
+- name: Otras
+  filter: "others"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Java
+  logo: /images/sections/skills/Java-Logo.png
+  summary: "Uso Java como mi lenguaje principal de desarrollo. Tengo experiencia creando interfaces gráficas con Swing y programando frameworks orientados a objetos para simuladores y aplicaciones educativas."
+  categories: ["basic", "language"]
+
+- name: Diseño de Interfaces
+  logo: /images/sections/skills/InterfazUsuario.png
+  summary: "Implementación de interfaces en Java Swing con enfoque en la usabilidad. Experiencia manejando eventos del mouse, menús emergentes y componentes personalizados."
+  categories: ["others"]
+
+- name: Estructuras de Datos
+  logo: /images/sections/skills/DataStructure.png
+  summary: "Conocimiento sólido en árboles binarios, árboles de búsqueda, listas enlazadas y su implementación orientada a objetos."
+  categories: ["basic", "data"]
+
+- name: Trabajo Comunitario y Comunicación
+  logo: /images/sections/skills/TeamWork.jpg
+  summary: "Experiencia liderando y participando en propuestas sobre salud mental, manejo del estrés, gamificación del aprendizaje y exposiciones colaborativas."
+  categories: ["basic", "others"]
+
+- name: NetBeans IDE
+  logo: /images/sections/skills/Netbeans.png
+  summary: "Mi entorno preferido para aplicaciones en Java. Experiencia en integración de librerías externas, depuración y diseño modular."
+  categories: ["others"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Trabajo constantemente con control de versiones usando Git. Utilizo GitHub para gestionar mis repositorios y colaborar con compañeros en proyectos académicos."
+  categories: ["basic"]
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "Conozco programación básica en C/C++. Lo he utilizado para programación competitiva y resolución de problemas."
+  categories: ["basic", "language"]

@@ -1,0 +1,20 @@
+# Copyright Notice
+copyright: © 2020 Copyright.
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio and personal blog of Carlos Sehuanes.
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Carlos' blog
+  type: website
+  description: Portfolio and personal blog of Carlos Sehuanes.
+  image: images/author/Carlos.png
+  url: https://hugo-toha.github.io

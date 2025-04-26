@@ -1,0 +1,62 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Basic
+  filter: "basic"
+- name: Language
+  filter: "language"
+- name: Data
+  filter: "data"
+- name: Others
+  filter: "others"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Java
+  logo: /images/sections/skills/Java-Logo.png
+  summary: "Using Java as my main development language. I have experience creating graphical interfaces with Swing and programming object-oriented frameworks for simulators and educational applications."
+  categories: ["basic", "language"]
+
+
+- name: Interface Design
+  logo: /images/sections/skills/InterfazUsuario.png
+  summary: "Implementation of interfaces in Java Swing with focus on usability. Experience handling mouse events, pop-up menus and custom components."
+  categories: ["others"]
+
+- name: Data Structures
+  logo: /images/sections/skills/DataStructure.png
+  summary: "Solid knowledge in binary trees, search trees, linked lists and their object oriented implementation."
+  categories: ["Basic", "data"]
+
+- name: Community Work and Communication
+  logo: /images/sections/skills/TeamWork.jpg
+  summary: "Experience leading and participating in proposals on mental health, stress management, gamification of learning and collaborative exhibitions."
+  categories: ["basic", "others"]
+
+- name: Netbeans IDE
+  logo: /images/sections/skills/Netbeans.png
+  summary: "My preferred framework for Java applications. Experience in external library integration, debugging and modular design."
+  categories: ["others"]
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Working constantly with version control using Git. I use GitHub to manage my repositories and collaborate with classmates on academic projects."
+  categories: ["basic"]
+
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["basic", "language"]

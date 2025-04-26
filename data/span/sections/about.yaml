@@ -1,0 +1,89 @@
+# section information
+section:
+  name: Acerca de mi
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Estudiante de Ingeniería de Sistemas
+
+# your company information
+university:
+  name: Universidad del Magdalena.
+  url: "https://www.unimagdalena.edu.co/"
+
+# your resume. this file path should be relative to you "static" directory
+# Deprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Soy estudiante de Ingeniería de Sistemas con experiencia sólida en desarrollo de aplicaciones Java, especializado en la simulación de circuitos digitales, lógica booleana, estructuras de datos avanzadas y diseño de interfaces gráficas utilizando Java Swing y NetBeans. Me destaco por mi enfoque analítico, pensamiento lógico y la capacidad de traducir conceptos teóricos complejos en soluciones funcionales y visuales.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "https://mail.google.com/mail"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/Csehuanes-code"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: ""
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/profile.php?id=100088864062212"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "Más sobre mí"
+  url: "https://carlos-sehuanes-bypojmz.gamma.site/"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+
+- type: certification
+  name: Constancia de Estudios
+  url: "https://i.ibb.co/T59kjT9/Proof-Of-Studies.png"
+  badge: "https://i.ibb.co/T59kjT9/Proof-Of-Studies.png"
+
+- type: certification
+  name: Gestión del Tiempo
+  url: "https://i.ibb.co/G40p3Wf1/Time-Management.png"
+  badge: "https://i.ibb.co/G40p3Wf1/Time-Management.png"
+
+- type: certification
+  name: 
+  url: ""
+  badge: ""
+
+- type: soft-skill-indicator
+  name: Liderazgo
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Trabajo en Equipo
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Comprometido
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

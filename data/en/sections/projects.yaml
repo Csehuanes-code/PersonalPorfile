@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: EntregApp
+  logo: /images/sections/projects/EntregAppLogo.png
+  image: /images/sections/projects/EntregApp.png
+  role: Owner
+  timeline: "Apl 2025- Present"
+  repo: https://github.com/Csehuanes-code/EntregApp.git
+  #url:
+  summary: Simulates delivery routes in a city using weighted directed graph data structures.
+  tags: ["academic","hobby", "Practic"]
+
+- name: LogicLab
+  logo: /images/sections/projects/LogicLabLogo.png
+  image: /images/sections/projects/LogicLab.jpg
+  role: Owner
+  timeline: "Apr 2025 - Present"
+  repo: https://github.com/Csehuanes-code/LogicLab.git
+  #url: ""
+  summary: LogicLab es una aplicación desarrollada en Java permite diseñar, visualizar, simular y analizar circuitos lógicos digitales de forma interactiva.
+  tags: ["academic", "useful"]
+
+- name: Carlos' Blog
+  logo: /images/sections/projects/C-main-logo.png
+  image: /images/sections/projects/Blog.png
+  role: User
+  timeline: "apr 2025 - Present"
+  repo: https://github.com/Csehuanes-code/PersonalPorfile.git
+  summary: A personal profile using hugo-toha.
+  tags: ["academic","hugo","theme","professional"]

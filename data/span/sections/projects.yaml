@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Proyectos
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # hideTitle: true
+
+# Botones de filtro
+buttons:
+- name: Todos
+  filter: "all"
+- name: Profesionales
+  filter: "professional"
+- name: Académicos
+  filter: "academic"
+- name: Pasatiempos
+  filter: "hobby"
+
+# Tus proyectos
+projects:
+- name: EntregApp
+  logo: /images/sections/projects/EntregAppLogo.png
+  image: /images/sections/projects/EntregApp.png
+  role: Creador
+  timeline: "Abr 2025 - Presente"
+  repo: https://github.com/Csehuanes-code/EntregApp.git
+  summary: Aplicación que simula rutas de entrega dentro de una ciudad utilizando grafos dirigidos y ponderados. Ideal para comprender algoritmos de caminos mínimos en contextos reales.
+  tags: ["academic", "hobby", "práctico"]
+
+- name: LogicLab
+  logo: /images/sections/projects/LogicLabLogo.png
+  image: /images/sections/projects/LogicLab.jpg
+  role: Creador
+  timeline: "Abr 2025 - Presente"
+  repo: https://github.com/Csehuanes-code/LogicLab.git
+  summary: LogicLab es una aplicación desarrollada en Java para diseñar, visualizar y simular circuitos lógicos digitales de forma interactiva. Incluye compuertas, variables y simulación de flujo.
+  tags: ["academic", "útil"]
+
+- name: Blog de Carlos
+  logo: /images/sections/projects/C-main-logo.png
+  image: /images/sections/projects/Blog.png
+  role: Desarrollador y Usuario
+  timeline: "Abr 2025 - Presente"
+  repo: https://github.com/Csehuanes-code/PersonalPorfile.git
+  summary: Sitio web personal construido con el tema Hugo-Toha. Incluye portafolio, logros, educación y blog técnico con publicaciones propias.
+  tags: ["academic", "hugo", "tema", "professional"]

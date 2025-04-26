@@ -1,0 +1,70 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Sale of candy at school
+    location: School
+    logo: /images/sections/experiences/candy.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: From a very young age, I developed an entrepreneurial spirit. During my elementary school years, I detected a need among my classmates, a taste for candy at recess. Taking advantage of this demand, I started selling candy at school. The idea, organization and logistics were entirely my initiative, although the money was managed by my parents due to my age. This experience taught me, early on, the value of money, the importance of inventory management and direct interaction with customers, even in an environment as informal as a school.
+  positions:
+  - designation: Independent salesperson (informal)
+    start: March 2014
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Jan 2015
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Entrepreneurship.
+    - Observation of the environment and decision making
+    - Basic communication with customers
+    - Revenue and start-up cost management (with supervision)
+
+
+- company:
+    name: Entrepreneurship of handmade refrigerated products.
+    location: Home
+    logo: /images/sections/experiences/HandMade.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Motivated by the good reception of my first sales, I decided to start my own small business from home, selling artisanal refrigerated products. This time I was in charge of the whole process, from the elaboration of the product to the sale and money management. It was my first experience as a self-employed entrepreneur. The activity included home production of the products, stock control, customer service and complete financial management.
+  positions:
+  - designation: Independent entrepreneur and manager
+    start: June 2015
+    end: July 2017
+    responsibilities:
+    - Autonomy and full responsibility over a business.
+    - Craft production and quality control.
+    - Inventory management.
+    - Direct customer service.
+    - Basic income and expense management.
+
+- company:
+    name: General assistant in pharmacy (family business)
+    url: https://www.instagram.com/drogueriapijino/?igsh=MWkyOXFwZXBseDg2eA%3D%3D#
+    location: Family Bussiness
+    logo: /images/sections/experiences/Drogueria.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: From the age of 12 I started to become actively involved in the family business, consisting of several pharmacy locations. My functions have evolved over time. I started by serving the public, organizing products, learning about inventories and collaborating with basic tasks. Over the years, I have gained more responsibility, confidence and knowledge, even helping to make minor decisions within the business. This experience has been key to developing customer service, sales, and operational management skills.
+  positions:
+  - designation: General assistant / customer service / sales support.
+    start: Jun 2018
+    #end: Jan 2016
+    responsibilities:
+    - Professional customer service
+    - Product management and organization
+    - Basic knowledge of pharmaceuticals (non-clinical)
+    - Conflict resolution
+    - Teamwork within a family/commercial environment
+    - Adaptation and work responsibility from a young age

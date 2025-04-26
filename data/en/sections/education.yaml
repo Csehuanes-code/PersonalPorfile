@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: System Engineer
+  icon: fa-graduation-cap
+  timeframe: 2023 - actuality
+  institution:
+    name: Universidad del Magdalena
+    url: "https://www.unimagdalena.edu.co/"
+    logo: /images/sections/education/unimag.JPEG
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  customSection:
+  name: I am currently investing in my education. Si I am in my fifth semester of Systems Engineering.
+  
+- name: Higher Secondary School Certificate
+  icon: fa-university
+  timeframe: 2017-2022
+  institution: 
+    name: Institución educativa Técnica Departamental Pijino del Carmen
+    url: "https://www.facebook.com/iepijino.delcarmen.7/"
+    logo: /images/sections/education/higherSchool.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/science_college.png
+  grade: #(optional)
+    scale: Decimal rating scale
+    achieved: 8.5
+    outOf: 10
+  extracurricularActivities: #(optional)
+  - social hours.
+  - driving course.
+  - volleyball team.
+
+- name: Secondary School Certificate
+  icon: fa-school
+  timeframe: 2011-2016
+  institution:
+    name: Institucion Educativa Maria de Carmen
+  grade: #(optional)
+    scale: Decimal rating scale
+    achieved: 10
+    outOf: 10
