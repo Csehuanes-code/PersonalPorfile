@@ -33,9 +33,9 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/Csehuanes-code"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: ""
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/carlos-andres-sehuanes-angulo-9b9749364/"
 
 - name: Facebook
   icon: "fab fa-facebook"
